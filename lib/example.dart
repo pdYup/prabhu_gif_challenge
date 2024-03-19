@@ -1,6 +1,6 @@
 
 
-List<int> integerList = [1,2,3,4];
+List<int> integerList = [1,4,3,2];
 
 List<int> descendList = [];
 
@@ -13,7 +13,5 @@ List<int> customSort(List<int> integerList) {
   }
 
   return descendList;
-
-
 
 }

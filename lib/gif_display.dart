@@ -18,14 +18,14 @@ class GIFDisplay extends GetView<GIFController> {
         title: Text(title),
         backgroundColor: Colors.blueGrey,
       ),
-      body: const Column(
+      body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
           Center(child: Text("inside gif view")),
-          ListView(
+          Expanded( child :ListView(
             physics: ScrollPhysics(),
             children: [Container()],
-          )
+          ))
         ],
       ),
     );
